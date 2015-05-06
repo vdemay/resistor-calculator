@@ -1,0 +1,57 @@
+#container {
+	border: 10px solid #dddddd;
+	padding: 10px;
+	background: #1a6060;
+	margin: 0px auto;
+    margin-bottom: 30px;
+	color: #fff;
+	border-radius: 0px;
+    font-size: 18px;
+}
+.resistorComputer {
+    margin: auto;
+    width: 300px;
+}
+#resistorValue {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-size: 40px;
+    margin-top: 10px;
+}
+#toleranceValue {
+	text-align: center;
+	margin-top: 0px !important;
+	font-size: 21px;
+}
+.bandOption, .resType {
+	text-align: left;
+	margin: 5px;
+}
+.resType {
+    padding-bottom: 10px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.resType input[type="radio"]{
+    -webkit-appearance: radio;
+    margin-left: 10px;
+    margin-top: -3px;
+    margin-right: 4px;
+}
+.bandOption label {
+    width: 150px;
+    display:inline-block;
+}
+.bandOption select {
+	width: 120px;
+	margin-left: 10px;
+    height: 20px;
+}
+.resistor {
+    padding-top: 30px;
+}
+.tolerance-area {
+    text-align: center;
+    padding-top: 20px;
+}

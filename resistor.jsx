@@ -165,7 +165,7 @@ var ResistanceCalculator = React.createClass({
 
     render: function() {
         return (
-            <div>
+            <div className={"resistorComputer"}>
                 <div className={"resType"}>
                   <label>
                     My resistor has 
@@ -187,6 +187,4 @@ var ResistanceCalculator = React.createClass({
             </div>
             );
     }
-        });
-
-	var calc = React.render(<ResistanceCalculator />, document.getElementById('container'));
+});
